@@ -1,4 +1,4 @@
-name: deploy
+name: deno-deploy
 
 on:
   push:
