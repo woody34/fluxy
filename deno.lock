@@ -32,6 +32,14 @@
     "https://deno.land/std@0.204.0/assert/mod.ts": "37c49a26aae2b254bbe25723434dc28cd7532e444cf0b481a97c045d110ec085",
     "https://deno.land/std@0.204.0/assert/unimplemented.ts": "d56fbeecb1f108331a380f72e3e010a1f161baa6956fd0f7cf3e095ae1a4c75a",
     "https://deno.land/std@0.204.0/assert/unreachable.ts": "4600dc0baf7d9c15a7f7d234f00c23bca8f3eba8b140286aaca7aa998cf9a536",
-    "https://deno.land/std@0.204.0/fmt/colors.ts": "c51c4642678eb690dcf5ffee5918b675bf01a33fba82acf303701ae1a4f8c8d9"
+    "https://deno.land/std@0.204.0/fmt/colors.ts": "c51c4642678eb690dcf5ffee5918b675bf01a33fba82acf303701ae1a4f8c8d9",
+    "https://esm.sh/*@preact/signals-core@1.5.0": "3c42c925f5de957b3abaede5615d503b2d8f27dabd1aee7b3142cf56182f2b4f",
+    "https://esm.sh/*@preact/signals@1.2.1": "e97def3b13accbdd3544bd47f5dd0fd74b10d3f0929db0e0e1d50580c535445a",
+    "https://esm.sh/preact@10.18.1": "94e175027f630c795ee1bde782564f4b9bed98db1e04cc7e07241a02c8d62358",
+    "https://esm.sh/preact@10.18.1/hooks": "f6dae7168765949a86987b09883d7cd850b4b73eab53ad78cfbead5cbd1c0771",
+    "https://esm.sh/stable/preact@10.18.1/denonext/hooks.js": "cb7e8c9973e6a224348eaa51fba21e13f239839e403f751b29894a258a6d16d0",
+    "https://esm.sh/stable/preact@10.18.1/denonext/preact.mjs": "b2ad171554b90f2be0f30b1318f63d0df90420b2bdb727fddd97193daa177f84",
+    "https://esm.sh/v133/@preact/signals-core@1.5.0/X-ZS8q/denonext/signals-core.mjs": "69a658490da1b25f2f8d4476c45e7f1f45e08a04a0418119ab3d3b574d77b96a",
+    "https://esm.sh/v133/@preact/signals@1.2.1/X-ZS8q/denonext/signals.mjs": "90531451d474fa35205f5f54e512ed566093722cb2a004316dc7b8d4b8122961"
   }
 }
