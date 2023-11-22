@@ -1,7 +1,6 @@
 {
   "deno.enable": true,
   "deno.lint": true,
-  "deno.unstable": true,
   "editor.formatOnSave": true,
   "[typescriptreact]": {
     "editor.defaultFormatter": "denoland.vscode-deno",
@@ -27,6 +26,4 @@
       "source.organizeImports": true
     }
   },
-  "plantuml.diagramsRoot": "docs/diagrams/src",
-  "plantuml.exportOutDir": "docs/diagrams/out"
 }

@@ -36,3 +36,5 @@ export const useStore = <T>(uniqName: string, defaultState: () => T) => {
     resetState,
   };
 };
+
+export default useStore;
