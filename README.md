@@ -1,7 +1,6 @@
-# What is fresh-store?
+# What is Fluxy?
 
-Fresh store is a very simple store that allows islands to communicate using
-hooks.
+Fluxy is a very simple store that allows islands to communicate using hooks.
 
 # Examples
 
