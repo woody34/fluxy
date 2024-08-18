@@ -1,7 +1,14 @@
 # What is Fluxy?
 
-Fluxy is a very simple store that allows Deno Fresh islands to communicate using
-hooks.
+Fluxy is a simple micro store, ~50 lines, that allows Deno Fresh islands to communicate using hooks. It propagatates all state changes as custom windows events.
+
+## Pros
+
+Store is lightweight and performant. I created it to help facility communication of state changes between islands but it should work with any preact project.
+
+## Cons
+
+Using widows events as a bus requres that the island's javascript code be loaded and listening for changes before the state change occurs.
 
 # Demo
 
@@ -9,7 +16,7 @@ hooks.
 
 # Usage
 
-## Custom Hook
+## Hook
 
 ```ts
 // hooks/useToaster.ts
