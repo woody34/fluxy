@@ -5,25 +5,25 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "denoland.vscode-deno",
     "editor.codeActionsOnSave": {
-      "source.organizeImports": true
+      "source.organizeImports": "explicit"
     }
   },
   "[typescript]": {
     "editor.defaultFormatter": "denoland.vscode-deno",
     "editor.codeActionsOnSave": {
-      "source.organizeImports": true
+      "source.organizeImports": "explicit"
     }
   },
   "[javascriptreact]": {
     "editor.defaultFormatter": "denoland.vscode-deno",
     "editor.codeActionsOnSave": {
-      "source.organizeImports": true
+      "source.organizeImports": "explicit"
     }
   },
   "[javascript]": {
     "editor.defaultFormatter": "denoland.vscode-deno",
     "editor.codeActionsOnSave": {
-      "source.organizeImports": true
+      "source.organizeImports": "explicit"
     }
-  },
+  }
 }

@@ -3,12 +3,12 @@ import { useSignal } from "@preact/signals";
 export const useStore = <T>(uniqName: string, defaultState: () => T) => {
   const state = useSignal<T>(defaultState());
 
-  const handleStateChangeEvent = (event: Event) => {
+  const stateChangeListener = (event: Event) => {
     const customEvent = event as CustomEvent<T>;
     state.value = customEvent.detail;
   };
 
-  globalThis.window.addEventListener(uniqName, handleStateChangeEvent);
+  globalThis.window.addEventListener(uniqName, stateChangeListener);
 
   const setState = (state: T) => {
     const event = new CustomEvent<T>(uniqName, {
